@@ -1,0 +1,16 @@
+# Local machine configuration (contains real paths) - never commit
+config.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Local tool permissions / IDE
+.claude/
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+Desktop.ini
