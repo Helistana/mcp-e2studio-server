@@ -1,0 +1,20 @@
+{
+  "e2studio_install": "C:\\Renesas\\RA\\e2studio_v2025-12_fsp_v6.4.0\\eclipse",
+  "e2studio_toolchains": "C:\\Renesas\\RA\\e2studio_v2025-12_fsp_v6.4.0\\toolchains",
+  "rfp_base": "C:\\Program Files (x86)\\Renesas Electronics\\Programming Tools",
+  "workspace": "D:\\e2_ws_mcp",
+  "jlink_port": 2331,
+  "default_mcu": "",
+  "gcc_extra_roots": [
+    "C:\\Program Files (x86)\\Arm GNU Toolchain arm-none-eabi"
+  ],
+  "segger_roots": [
+    "C:\\Program Files\\SEGGER",
+    "C:\\Program Files (x86)\\SEGGER"
+  ],
+  "gcc_version_prefs": [
+    "13.2.rel1",
+    "12.3.rel1",
+    "10.3.rel1"
+  ]
+}
