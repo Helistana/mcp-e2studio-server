@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mcp-e2studio-server"
+version = "1.0.0"
+description = "MCP server for Renesas e2studio RA/RX embedded build, flash and debug automation"
+requires-python = ">=3.10"
+dependencies = [
+    "mcp>=1.0.0",
+]
+
+[tool.setuptools]
+py-modules = ["server"]
