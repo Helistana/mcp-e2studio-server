@@ -1,5 +1,7 @@
 # mcp-e2studio-server
 
+[![M8ven Score](https://m8ven.ai/badge/mcp/helistana-mcp-e2studio-server-1apw5m)](https://m8ven.ai/mcp/helistana-mcp-e2studio-server-1apw5m)
+
 Renesas e2studio（RA / RX MCU）嵌入式开发的 **MCP (Model Context Protocol) Server**，
 让 Claude Code / opencode 等 AI 工具能够自主完成：
 
@@ -73,7 +75,7 @@ pip install "mcp>=1.0.0"
 ```
 
 > 建议 `command` 使用 Python **绝对路径**（避免 PATH 里混入其他版本）。
-> 本机已知：PATH 中的 `python` 为 3.12.10；`C:\...\Python314` 环境损坏不可用。
+
 
 ---
 
@@ -107,7 +109,7 @@ pip install "mcp>=1.0.0"
 - **e2studio + FSP**：构建/烧录必需。
 - **Renesas Flash Programmer**：`flash_firmware` 必需。
 - **SEGGER J-Link 软件**：`debug_*` 与 `flash_jlink` 必需（`discover_tools` 会
-  报告 `jlink_gdb`/`jlink` MISSING）。本机当前**未安装**，安装后即可启用调试功能。
+  报告 `jlink_gdb`/`jlink` MISSING）。
 
 ---
 
